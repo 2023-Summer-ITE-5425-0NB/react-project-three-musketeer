@@ -1,0 +1,84 @@
+[2023-06-12 11:56:59] : [INFO] :: Successfully connected to MongoDB
+[2023-06-12 11:56:59] : [INFO] :: Server is running on port 9090
+[2023-06-12 11:58:12] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/register] IP: [::1]
+[2023-06-12 11:58:12] : [INFO] :: TamCharan@example.com: User created successfully
+[2023-06-12 11:58:12] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/register] IP: [::1] - Status: [201]
+[2023-06-12 12:00:09] : [INFO] :: Successfully connected to MongoDB
+[2023-06-12 12:00:09] : [INFO] :: Server is running on port 9090
+[2023-06-12 12:00:45] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/register] IP: [::1]
+[2023-06-12 12:00:45] : [ERROR] :: Validation error: "email" is required
+[2023-06-12 12:00:45] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/register] IP: [::1] - Status: [400]
+[2023-06-12 12:00:56] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/register] IP: [::1]
+[2023-06-12 12:00:56] : [ERROR] :: Validation error: "email" is required
+[2023-06-12 12:00:56] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/register] IP: [::1] - Status: [400]
+[2023-06-12 12:01:12] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/register] IP: [::1]
+[2023-06-12 12:01:12] : [ERROR] :: Validation error: "lastName" is required
+[2023-06-12 12:01:12] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/register] IP: [::1] - Status: [400]
+[2023-06-12 12:01:43] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/register] IP: [::1]
+[2023-06-12 12:02:09] : [INFO] :: Successfully connected to MongoDB
+[2023-06-12 12:02:09] : [INFO] :: Server is running on port 9090
+[2023-06-12 12:02:15] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/register] IP: [::1]
+[2023-06-12 12:03:44] : [INFO] :: Successfully connected to MongoDB
+[2023-06-12 12:03:44] : [INFO] :: Server is running on port 9090
+[2023-06-12 12:03:51] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/register] IP: [::1]
+[2023-06-12 12:04:59] : [INFO] :: Successfully connected to MongoDB
+[2023-06-12 12:04:59] : [INFO] :: Server is running on port 9090
+[2023-06-12 12:05:15] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/register] IP: [::1]
+[2023-06-12 12:05:41] : [INFO] :: Successfully connected to MongoDB
+[2023-06-12 12:05:41] : [INFO] :: Server is running on port 9090
+[2023-06-12 12:05:45] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/register] IP: [::1]
+[2023-06-12 12:05:45] : [WARN] :: TaraCharan@example.com:  User already exists
+[2023-06-12 12:05:45] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/register] IP: [::1] - Status: [400]
+[2023-06-12 12:06:53] : [INFO] :: Successfully connected to MongoDB
+[2023-06-12 12:06:53] : [INFO] :: Server is running on port 9090
+[2023-06-12 12:09:52] : [INFO] :: Successfully connected to MongoDB
+[2023-06-12 12:09:52] : [INFO] :: Server is running on port 9090
+[2023-06-12 12:09:54] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/register] IP: [::1]
+[2023-06-12 12:09:54] : [WARN] :: TaraCharan@example.com:  User already exists
+[2023-06-12 12:09:54] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/register] IP: [::1] - Status: [400]
+[2023-06-12 12:10:53] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/register] IP: [::1]
+[2023-06-12 12:10:53] : [WARN] :: TamCharan@example.com:  User already exists
+[2023-06-12 12:10:53] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/register] IP: [::1] - Status: [400]
+[2023-06-12 12:11:16] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/register] IP: [::1]
+[2023-06-12 12:11:16] : [INFO] :: TimCharan@example.com: User created successfully
+[2023-06-12 12:11:16] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/register] IP: [::1] - Status: [201]
+[2023-06-12 12:11:35] : [INFO] :: Incoming Request Method:  [GET] - URL: [/users/get/ramCharan@example.com] IP: [::1]
+[2023-06-12 12:11:35] : [INFO] :: Token successfully authenticated for user:  undefined
+[2023-06-12 12:11:35] : [WARN] :: ramCharan@example.com: Unauthorized access
+[2023-06-12 12:11:35] : [INFO] :: Outgoing Response Method:  [GET] - URL: [/get/ramCharan@example.com] IP: [::1] - Status: [403]
+[2023-06-12 13:32:17] : [INFO] :: Successfully connected to MongoDB
+[2023-06-12 13:32:17] : [INFO] :: Server is running on port 9090
+[2023-06-12 13:34:10] : [INFO] :: Incoming Request Method:  [GET] - URL: [/users/get/ramCharan@example.com] IP: [::1]
+[2023-06-12 13:34:10] : [INFO] :: Outgoing Response Method:  [GET] - URL: [/users/get/ramCharan@example.com] IP: [::1] - Status: [500]
+[2023-06-12 13:36:19] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-06-12 13:36:19] : [INFO] :: TimCharan@example.com: User logged in successfully
+[2023-06-12 13:36:19] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-06-12 13:36:58] : [INFO] :: Incoming Request Method:  [GET] - URL: [/users/get/ramCharan@example.com] IP: [::1]
+[2023-06-12 13:36:58] : [INFO] :: Token successfully authenticated for user:  undefined
+[2023-06-12 13:36:58] : [WARN] :: ramCharan@example.com: Unauthorized access
+[2023-06-12 13:36:58] : [INFO] :: Outgoing Response Method:  [GET] - URL: [/get/ramCharan@example.com] IP: [::1] - Status: [403]
+[2023-06-12 13:37:10] : [INFO] :: Incoming Request Method:  [GET] - URL: [/users/get/TimCharan@example.com] IP: [::1]
+[2023-06-12 13:37:10] : [INFO] :: Token successfully authenticated for user:  undefined
+[2023-06-12 13:37:10] : [INFO] :: TimCharan@example.com: User retrieved successfully
+[2023-06-12 13:37:10] : [INFO] :: Outgoing Response Method:  [GET] - URL: [/get/TimCharan@example.com] IP: [::1] - Status: [200]
+[2023-06-12 13:38:17] : [INFO] :: Incoming Request Method:  [GET] - URL: [/users/register] IP: [::1]
+[2023-06-12 13:38:17] : [ERROR] :: Not Found
+[2023-06-12 13:38:17] : [INFO] :: Outgoing Response Method:  [GET] - URL: [/users/register] IP: [::1] - Status: [404]
+[2023-06-12 13:38:25] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/register] IP: [::1]
+[2023-06-12 13:38:25] : [WARN] :: TimCharan@example.com:  User already exists
+[2023-06-12 13:38:25] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/register] IP: [::1] - Status: [400]
+[2023-06-12 13:38:40] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/register] IP: [::1]
+[2023-06-12 13:38:40] : [INFO] :: nishantCharan@example.com: User created successfully
+[2023-06-12 13:38:40] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/register] IP: [::1] - Status: [201]
+[2023-06-12 13:59:13] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/register] IP: [::1]
+[2023-06-12 13:59:13] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/register] IP: [::1] - Status: [200]
+[2023-06-12 13:59:13] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/register] IP: [::1]
+[2023-06-12 13:59:14] : [INFO] :: frank@gmail.com: User created successfully
+[2023-06-12 13:59:14] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/register] IP: [::1] - Status: [201]
+[2023-06-15 11:53:58] : [INFO] :: Successfully connected to MongoDB
+[2023-06-15 11:53:58] : [INFO] :: Server is running on port 9090
+[2023-06-15 11:56:55] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/register] IP: [::1]
+[2023-06-15 11:56:55] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/register] IP: [::1] - Status: [200]
+[2023-06-15 11:56:55] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/register] IP: [::1]
+[2023-06-15 11:56:56] : [INFO] :: nishant@gmail.com: User created successfully
+[2023-06-15 11:56:56] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/register] IP: [::1] - Status: [201]
