@@ -82,3 +82,339 @@
 [2023-06-15 11:56:55] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/register] IP: [::1]
 [2023-06-15 11:56:56] : [INFO] :: nishant@gmail.com: User created successfully
 [2023-06-15 11:56:56] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/register] IP: [::1] - Status: [201]
+[2023-06-22 10:56:58] : [INFO] :: Successfully connected to MongoDB
+[2023-06-22 10:56:58] : [INFO] :: Server is running on port 9090
+[2023-07-12 15:51:21] : [INFO] :: Successfully connected to MongoDB
+[2023-07-12 15:51:21] : [INFO] :: Server is running on port 9090
+[2023-07-12 15:52:54] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/register] IP: [::1]
+[2023-07-12 15:52:54] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/register] IP: [::1] - Status: [200]
+[2023-07-12 15:52:54] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/register] IP: [::1]
+[2023-07-12 15:52:54] : [INFO] :: fsandhu.91@gmail.com: User created successfully
+[2023-07-12 15:52:54] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/register] IP: [::1] - Status: [201]
+[2023-07-12 15:53:00] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/register] IP: [::1]
+[2023-07-12 15:53:00] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/register] IP: [::1] - Status: [200]
+[2023-07-12 15:53:00] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/register] IP: [::1]
+[2023-07-12 15:53:00] : [WARN] :: fsandhu.91@gmail.com:  User already exists
+[2023-07-12 15:53:00] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/register] IP: [::1] - Status: [400]
+[2023-07-12 15:53:10] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/register] IP: [::1]
+[2023-07-12 15:53:10] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/register] IP: [::1] - Status: [200]
+[2023-07-12 15:53:10] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/register] IP: [::1]
+[2023-07-12 15:53:10] : [WARN] :: fsandhu.91@gmail.com:  User already exists
+[2023-07-12 15:53:10] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/register] IP: [::1] - Status: [400]
+[2023-07-12 15:53:34] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/register] IP: [::1]
+[2023-07-12 15:53:34] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/register] IP: [::1] - Status: [200]
+[2023-07-12 15:53:34] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/register] IP: [::1]
+[2023-07-12 15:53:34] : [WARN] :: frank@gmail.com:  User already exists
+[2023-07-12 15:53:34] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/register] IP: [::1] - Status: [400]
+[2023-07-12 15:53:47] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/register] IP: [::1]
+[2023-07-12 15:53:47] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/register] IP: [::1] - Status: [200]
+[2023-07-12 15:53:47] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/register] IP: [::1]
+[2023-07-12 15:53:47] : [INFO] :: franksandhu@gmail.com: User created successfully
+[2023-07-12 15:53:47] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/register] IP: [::1] - Status: [201]
+[2023-07-12 16:24:49] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/register] IP: [::1]
+[2023-07-12 16:24:49] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/register] IP: [::1] - Status: [200]
+[2023-07-12 16:24:49] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/register] IP: [::1]
+[2023-07-12 16:24:50] : [INFO] :: nk@gmail.com: User created successfully
+[2023-07-12 16:24:50] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/register] IP: [::1] - Status: [201]
+[2023-07-12 16:25:11] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/login] IP: [::1]
+[2023-07-12 16:25:11] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 16:25:11] : [INFO] :: Incoming Request Method:  [POST] - URL: [/login] IP: [::1]
+[2023-07-12 16:25:11] : [ERROR] :: Not Found
+[2023-07-12 16:25:11] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [404]
+[2023-07-12 16:26:01] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 16:26:01] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 16:26:01] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 16:26:01] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 16:26:01] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 17:22:06] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/login] IP: [::1]
+[2023-07-12 17:22:06] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 17:22:06] : [INFO] :: Incoming Request Method:  [POST] - URL: [/login] IP: [::1]
+[2023-07-12 17:22:06] : [ERROR] :: Not Found
+[2023-07-12 17:22:06] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [404]
+[2023-07-12 17:22:39] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 17:22:39] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 17:22:39] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 17:22:40] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 17:22:40] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 17:24:32] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 17:24:32] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 17:24:32] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 17:24:32] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 17:24:32] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 17:25:43] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 17:25:43] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 17:25:43] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 17:25:43] : [WARN] :: nk@gmail.com: Invalid email or password
+[2023-07-12 17:25:43] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [401]
+[2023-07-12 17:27:21] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 17:27:21] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 17:27:21] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 17:27:21] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 17:27:21] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 17:33:16] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 17:33:16] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 17:33:16] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 17:33:16] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 17:33:16] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 17:46:39] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 17:46:39] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 17:46:39] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 17:46:39] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 17:46:39] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 17:53:19] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 17:53:19] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 17:53:19] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 17:53:19] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 17:53:19] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 18:03:33] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:03:33] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 18:03:33] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:03:33] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 18:03:33] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 18:04:51] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:04:51] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 18:04:51] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:04:51] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 18:04:51] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 18:05:44] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:05:44] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 18:05:44] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:05:44] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 18:05:44] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 18:06:46] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:06:46] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 18:06:46] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:06:46] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 18:06:46] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 18:07:03] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:07:03] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 18:07:03] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:07:03] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 18:07:03] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 18:10:42] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:10:42] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 18:10:42] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:10:42] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 18:10:42] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 18:15:31] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:15:31] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 18:15:31] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:15:31] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 18:15:31] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 18:15:34] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:15:34] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 18:15:34] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 18:15:39] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:15:39] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 18:15:39] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:15:39] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 18:15:39] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 18:15:42] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:15:42] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 18:15:42] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 18:17:18] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:17:18] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 18:17:18] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:17:18] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 18:17:18] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 18:17:33] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:17:33] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 18:17:33] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:17:33] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 18:17:33] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 18:23:40] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:23:40] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 18:23:40] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:23:40] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 18:23:40] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 18:59:33] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:59:33] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 18:59:33] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:59:33] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 18:59:33] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 18:59:41] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:59:41] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 18:59:41] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 18:59:41] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 18:59:41] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 19:03:49] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 19:03:49] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 19:03:49] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 19:03:49] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 19:03:49] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 19:11:03] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 19:11:03] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 19:11:03] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 19:11:03] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 19:11:03] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 19:12:19] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 19:12:19] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 19:12:19] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 19:12:19] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 19:12:19] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 19:23:44] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 19:23:44] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 19:23:44] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 19:23:44] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 19:23:44] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 19:24:13] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 19:24:13] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 19:24:13] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 19:24:13] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 19:24:13] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 19:30:41] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 19:30:41] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 19:30:41] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 19:30:41] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 19:30:41] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 19:33:09] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 19:33:09] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 19:33:09] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 19:33:09] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 19:33:09] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 19:41:41] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 19:41:41] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 19:41:41] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 19:41:41] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 19:41:41] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 19:42:09] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/update/nk@gmail.com] IP: [::1]
+[2023-07-12 19:42:09] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/update/nk@gmail.com] IP: [::1] - Status: [200]
+[2023-07-12 19:42:09] : [INFO] :: Incoming Request Method:  [PATCH] - URL: [/users/update/nk@gmail.com] IP: [::1]
+[2023-07-12 19:42:09] : [INFO] :: Outgoing Response Method:  [PATCH] - URL: [/users/update/nk@gmail.com] IP: [::1] - Status: [500]
+[2023-07-12 19:45:23] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/update/nk@gmail.com] IP: [::1]
+[2023-07-12 19:45:23] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/update/nk@gmail.com] IP: [::1] - Status: [200]
+[2023-07-12 19:45:23] : [INFO] :: Incoming Request Method:  [PATCH] - URL: [/users/update/nk@gmail.com] IP: [::1]
+[2023-07-12 19:45:23] : [INFO] :: Outgoing Response Method:  [PATCH] - URL: [/users/update/nk@gmail.com] IP: [::1] - Status: [500]
+[2023-07-12 19:46:20] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/update/nk@gmail.com] IP: [::1]
+[2023-07-12 19:46:20] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/update/nk@gmail.com] IP: [::1] - Status: [200]
+[2023-07-12 19:46:20] : [INFO] :: Incoming Request Method:  [PATCH] - URL: [/users/update/nk@gmail.com] IP: [::1]
+[2023-07-12 19:46:20] : [INFO] :: Outgoing Response Method:  [PATCH] - URL: [/users/update/nk@gmail.com] IP: [::1] - Status: [500]
+[2023-07-12 19:49:27] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 19:49:27] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 19:49:27] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 19:49:27] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 19:49:27] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 19:49:49] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/update/nk@gmail.com] IP: [::1]
+[2023-07-12 19:49:49] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/update/nk@gmail.com] IP: [::1] - Status: [200]
+[2023-07-12 19:49:49] : [INFO] :: Incoming Request Method:  [PATCH] - URL: [/users/update/nk@gmail.com] IP: [::1]
+[2023-07-12 19:49:49] : [INFO] :: Outgoing Response Method:  [PATCH] - URL: [/users/update/nk@gmail.com] IP: [::1] - Status: [500]
+[2023-07-12 19:52:39] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 19:52:39] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 19:52:39] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 19:52:39] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 19:52:39] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 19:52:56] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/update/nk@gmail.com] IP: [::1]
+[2023-07-12 19:52:56] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/update/nk@gmail.com] IP: [::1] - Status: [200]
+[2023-07-12 19:52:56] : [INFO] :: Incoming Request Method:  [PATCH] - URL: [/users/update/nk@gmail.com] IP: [::1]
+[2023-07-12 19:52:56] : [INFO] :: Token successfully authenticated for user:  undefined
+[2023-07-12 19:52:56] : [INFO] :: nk@gmail.com: User updated successfully
+[2023-07-12 19:52:56] : [INFO] :: Outgoing Response Method:  [PATCH] - URL: [/update/nk@gmail.com] IP: [::1] - Status: [200]
+[2023-07-12 19:56:01] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/update/nk@gmail.com] IP: [::1]
+[2023-07-12 19:56:01] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/update/nk@gmail.com] IP: [::1] - Status: [200]
+[2023-07-12 19:56:01] : [INFO] :: Incoming Request Method:  [PATCH] - URL: [/users/update/nk@gmail.com] IP: [::1]
+[2023-07-12 19:56:01] : [INFO] :: Token successfully authenticated for user:  undefined
+[2023-07-12 19:56:01] : [INFO] :: nk@gmail.com: User updated successfully
+[2023-07-12 19:56:01] : [INFO] :: Outgoing Response Method:  [PATCH] - URL: [/update/nk@gmail.com] IP: [::1] - Status: [200]
+[2023-07-12 19:58:07] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 19:58:07] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 19:58:07] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 19:58:07] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 19:58:07] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 19:58:56] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 19:58:56] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 19:58:56] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 19:58:56] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 19:58:56] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 20:00:44] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 20:00:44] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 20:00:44] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 20:00:44] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 20:00:44] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 20:03:20] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 20:03:20] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 20:03:20] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 20:03:20] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 20:03:20] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 20:04:04] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 20:04:04] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 20:04:04] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 20:04:04] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 20:04:04] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 20:04:43] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/update/nk@gmail.com] IP: [::1]
+[2023-07-12 20:04:43] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/update/nk@gmail.com] IP: [::1] - Status: [200]
+[2023-07-12 20:04:43] : [INFO] :: Incoming Request Method:  [PATCH] - URL: [/users/update/nk@gmail.com] IP: [::1]
+[2023-07-12 20:04:43] : [INFO] :: Token successfully authenticated for user:  undefined
+[2023-07-12 20:04:43] : [INFO] :: nk@gmail.com: User updated successfully
+[2023-07-12 20:04:43] : [INFO] :: Outgoing Response Method:  [PATCH] - URL: [/update/nk@gmail.com] IP: [::1] - Status: [200]
+[2023-07-12 20:07:38] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/update/nk@gmail.com] IP: [::1]
+[2023-07-12 20:07:38] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/update/nk@gmail.com] IP: [::1] - Status: [200]
+[2023-07-12 20:07:38] : [INFO] :: Incoming Request Method:  [PATCH] - URL: [/users/update/nk@gmail.com] IP: [::1]
+[2023-07-12 20:07:39] : [INFO] :: Token successfully authenticated for user:  undefined
+[2023-07-12 20:07:39] : [INFO] :: nk@gmail.com: User updated successfully
+[2023-07-12 20:07:39] : [INFO] :: Outgoing Response Method:  [PATCH] - URL: [/update/nk@gmail.com] IP: [::1] - Status: [200]
+[2023-07-12 20:11:38] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 20:11:38] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 20:11:38] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 20:11:38] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 20:11:38] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 20:13:11] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/delete/nk@gmail.com] IP: [::1]
+[2023-07-12 20:13:11] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/delete/nk@gmail.com] IP: [::1] - Status: [200]
+[2023-07-12 20:13:11] : [INFO] :: Incoming Request Method:  [DELETE] - URL: [/users/delete/nk@gmail.com] IP: [::1]
+[2023-07-12 20:13:11] : [INFO] :: Token successfully authenticated for user:  undefined
+[2023-07-12 20:13:11] : [INFO] :: nk@gmail.com: User deleted successfully
+[2023-07-12 20:13:11] : [INFO] :: Outgoing Response Method:  [DELETE] - URL: [/delete/nk@gmail.com] IP: [::1] - Status: [200]
+[2023-07-12 20:13:20] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 20:13:20] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 20:13:20] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 20:13:20] : [WARN] :: nk@gmail.com: User not found
+[2023-07-12 20:13:20] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [404]
+[2023-07-12 20:18:42] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 20:18:42] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 20:18:42] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 20:18:42] : [WARN] :: nk@gmail.com: User not found
+[2023-07-12 20:18:42] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [404]
+[2023-07-12 20:19:43] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 20:19:43] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 20:19:43] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 20:19:43] : [WARN] :: nk@gmail.com: User not found
+[2023-07-12 20:19:43] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [404]
+[2023-07-12 20:24:38] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 20:24:38] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 20:24:38] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 20:24:38] : [WARN] :: nk@gmail.com: User not found
+[2023-07-12 20:24:38] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [404]
+[2023-07-12 20:26:01] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 20:26:01] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 20:26:01] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 20:26:01] : [WARN] :: nk@gmail.com: User not found
+[2023-07-12 20:26:01] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [404]
+[2023-07-12 20:26:17] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/register] IP: [::1]
+[2023-07-12 20:26:17] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/register] IP: [::1] - Status: [200]
+[2023-07-12 20:26:17] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/register] IP: [::1]
+[2023-07-12 20:26:17] : [ERROR] :: Validation error: "dateOfBirth" must be a valid date
+[2023-07-12 20:26:17] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/register] IP: [::1] - Status: [400]
+[2023-07-12 20:26:31] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/register] IP: [::1]
+[2023-07-12 20:26:31] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/register] IP: [::1] - Status: [200]
+[2023-07-12 20:26:31] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/register] IP: [::1]
+[2023-07-12 20:26:31] : [INFO] :: nk@gmail.com: User created successfully
+[2023-07-12 20:26:31] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/register] IP: [::1] - Status: [201]
+[2023-07-12 20:26:42] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 20:26:42] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 20:26:42] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 20:26:43] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 20:26:43] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 20:27:07] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 20:27:07] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 20:27:07] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 20:27:07] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 20:27:07] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 20:29:15] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 20:29:15] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 20:29:15] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 20:29:15] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 20:29:15] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]
+[2023-07-12 20:51:27] : [INFO] :: Incoming Request Method:  [OPTIONS] - URL: [/users/login] IP: [::1]
+[2023-07-12 20:51:27] : [INFO] :: Outgoing Response Method:  [OPTIONS] - URL: [/users/login] IP: [::1] - Status: [200]
+[2023-07-12 20:51:27] : [INFO] :: Incoming Request Method:  [POST] - URL: [/users/login] IP: [::1]
+[2023-07-12 20:51:27] : [INFO] :: nk@gmail.com: User logged in successfully
+[2023-07-12 20:51:27] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/login] IP: [::1] - Status: [200]

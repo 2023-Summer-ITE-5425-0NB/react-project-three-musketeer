@@ -25,3 +25,10 @@ label {
     font-family: 'Cutive Mono', monospace;
     font-weight: bolder;
 }
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
