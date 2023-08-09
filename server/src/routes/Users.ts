@@ -1,5 +1,5 @@
 /**
- * Author: John Doe
+ * Author: Amrendra Kumar Singh
  * Description: This file defines the routes for user-related operations, such as user registration,
  * user login, fetching user information, updating user details, changing password, and deleting a user.
  * These routes are protected by authentication middleware.

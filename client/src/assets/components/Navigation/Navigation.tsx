@@ -1,14 +1,18 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navgation.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { AuthContext } from "../../../page/Login/AuthContext";
 
-const Navigation = () => {
+const Navigation: React.FC = () => {
+  const [isNavOpen, setIsNavOpen] = useState(false);
   const authContext = useContext(AuthContext);
 
+  const handleToggleNav = () => {
+    setIsNavOpen(!isNavOpen);
+  };
+
   const handleLogout = () => {
-    // Perform logout logic, such as clearing user data and resetting login status
     authContext.setIsLoggedIn(false);
   };
 
@@ -20,15 +24,14 @@ const Navigation = () => {
       <button
         className="navbar-toggler"
         type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
+        onClick={handleToggleNav}
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <div className="collapse navbar-collapse" id="navbarNav">
+      <div
+        className={`collapse navbar-collapse ${isNavOpen ? "show" : ""}`}
+        id="navbarNav"
+      >
         <ul className="navbar-nav">
           <li className="nav-item">
             <NavLink className="nav-link" to="/">
@@ -50,7 +53,7 @@ const Navigation = () => {
               Contact Us
             </NavLink>
           </li>
-          <li className="nav-item" style={{ marginLeft: "auto" }}>
+          <li className="nav-item" >
             <NavLink className="nav-link" to="/about">
               About Us
             </NavLink>
@@ -65,9 +68,9 @@ const Navigation = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <button className="nav-link btn btn-link" onClick={handleLogout}>
+                <NavLink to="" className="nav-link" onClick={handleLogout}>
                   Logout
-                </button>
+                </NavLink>
               </li>
             </>
           ) : (

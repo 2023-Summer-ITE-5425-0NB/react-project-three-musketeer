@@ -1,5 +1,5 @@
 /**
- * Author: John Doe
+ * Author: Amrendra Singh
  * Description: This middleware function is used to authenticate JWT tokens in incoming requests.
  * It verifies the token provided in the request header and attaches the decoded user ID to the request object.
  * If the token is valid, the request is allowed to proceed to the next middleware.

@@ -1,82 +1,52 @@
-import React from "react";
+import React, { useState, useEffect, useContext } from "react";
+import axios from "axios";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../Login/AuthContext";
 
-const Articles = () => {
-  const articles = [
-    {
-      id: 1,
-      title: "Article 1",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    },
-    {
-      id: 2,
-      title: "Article 2",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    },
-    {
-      id: 3,
-      title: "Article 3",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    },
-    {
-      id: 4,
-      title: "Article 4",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    },
-    {
-      id: 5,
-      title: "Article 5",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    },
-    {
-      id: 6,
-      title: "Article 6",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    },
-    {
-      id: 7,
-      title: "Article 7",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    },
-    {
-      id: 8,
-      title: "Article 8",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    },
-    {
-      id: 9,
-      title: "Article 9",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    },
-    {
-      id: 10,
-      title: "Article 10",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    },
-    {
-      id: 11,
-      title: "Article 11",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    },
-    {
-      id: 12,
-      title: "Article 12",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    },
-  ];
+interface Article {
+  _id: string;
+  title: string;
+  author: string;
+}
+
+const Articles: React.FC = () => {
+  const [articles, setArticles] = useState<Article[]>([]);
+  const authContext = useContext(AuthContext);
+
+  useEffect(() => {
+    fetchArticles();
+    console.log(articles)
+  }, []);
+
+  const fetchArticles = async () => {
+    try {
+      const response = await axios.get("http://localhost:9090/articles/articles", {
+        headers: {
+          Authorization: authContext.token,
+        },
+      });
+      setArticles(response.data);
+      
+    } catch (error) {
+      console.error("Error while fetching articles:", error);
+    }
+  };
 
   return (
     <div className="container">
       <h1 className="text-center mb-4">Articles</h1>
       <div className="row">
         {articles.map((article) => (
-          <div key={article.id} className="col-md-4 mb-4">
-            <div className="card" style={{ borderRadius: "10px", border: "1px solid #dee2e6" }}>
+          <div key={article._id} className="col-md-4 mb-4">
+            <div
+              className="card"
+              style={{ borderRadius: "10px", border: "1px solid #dee2e6" }}
+            >
               <div className="card-body">
                 <h5 className="card-title">
-                  <Link to={`/articles/${article.id}`}>{article.title}</Link>
+                  <Link to={`/articles/${article._id}`}>{article.title}</Link>
                 </h5>
-                <p className="card-text">{article.content}</p>
+                <p className="card-text">{article.author}</p>
               </div>
             </div>
           </div>

@@ -6,6 +6,7 @@ const ContactUsForm = () => {
     email: "",
     message: "",
   });
+  const [submitted, setSubmitted] = useState(false); // Track submission status
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -20,6 +21,7 @@ const ContactUsForm = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log(formData);
+    setSubmitted(true); // Set submission status to true
     setFormData({
       name: "",
       email: "",
@@ -29,7 +31,14 @@ const ContactUsForm = () => {
 
   return (
     <div className="d-flex align-items-center justify-content-center">
-      <form onSubmit={handleSubmit} className="card p-4" style={{ border: "1px solid #dee2e6", borderRadius: "10px", width: "400px" }}>
+      <form
+        onSubmit={handleSubmit}
+        className="card p-4"
+        style={{ border: "1px solid #dee2e6", borderRadius: "10px", width: "400px" }}
+      >
+        {submitted ? (
+          <p className="text-success mb-3">Message sent!</p>
+        ) : null}
         <div className="mb-3">
           <label htmlFor="name" className="form-label">
             Name:
@@ -68,7 +77,9 @@ const ContactUsForm = () => {
             className="form-control"
           ></textarea>
         </div>
-        <button type="submit" className="btn btn-primary">Submit</button>
+        <button type="submit" className="btn btn-primary">
+          Submit
+        </button>
       </form>
     </div>
   );

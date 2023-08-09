@@ -12,9 +12,12 @@ import Root from "./page/Root";
 import Home from "./page/Home/Home";
 import Profile from "./page/Profile/Profile";
 import { AuthProvider } from "./page/Login/AuthContext";
+import { CartProvider } from "./page/Cart/CartContext";
+import { ArticleProvider } from "./page/Articles/ArticleContext";
 import "./index.css";
 import UpdateUser from "./page/UpdateUser/UpdateUser";
 import DeleteUser from "./page/DeleteUser/DeleteUser";
+import Cart from "./page/Cart/Cart";
 
 const router = createBrowserRouter([
   {
@@ -31,7 +34,8 @@ const router = createBrowserRouter([
       { path: "register", element: <Register /> },
       { path: "profile", element: <Profile /> },
       { path: "update-user", element: <UpdateUser /> },
-      { path: "delete-user", element: <DeleteUser/> },
+      { path: "delete-user", element: <DeleteUser /> },
+      { path: "cart", element: <Cart /> },
     ],
   },
 ]);
@@ -39,7 +43,11 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <AuthProvider>
-      <RouterProvider router={router} />
+      <CartProvider>
+        <ArticleProvider>
+          <RouterProvider router={router} />
+        </ArticleProvider>
+      </CartProvider>
     </AuthProvider>
   </React.StrictMode>
 );

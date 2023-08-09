@@ -1,5 +1,5 @@
 /**
- * Author: John Doe
+ * Author: Amrendra Kumar Singh
  * Description: This file defines the validateUser function which utilizes Joi to validate user input based on the IUser interface.
  * This function can be used in controllers or routes to validate user data before processing it or saving it to the database.
  */

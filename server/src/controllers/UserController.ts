@@ -3,16 +3,15 @@
  * This controller provides methods for creating a new user, reading user information, updating user information,
  * updating user password, deleting a user, and user login.
  *
- * @author Your Name
+ * @author Amrendra Kumar Singh
  */
 
-import e, { NextFunction, Request, Response } from 'express';
+import { NextFunction, Request, Response } from 'express';
 import User from '../models/users';
 import jwt from 'jsonwebtoken';
 import { IRequest } from '../types';
 import Logging from '../library/Logger';
 import bcrypt from 'bcrypt';
-import { config } from '../config/config';
 import logMessages from '../library/logMessage.json';
 import { validateUser } from '../validators/userValidator';
 import { userEmailParamSchema } from '../validators/userEmailParamValidator';

@@ -1,14 +1,13 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import "./Profile.css";
 import { AuthContext } from "../Login/AuthContext";
 import { useContext } from "react";
 import { MD5 } from 'crypto-js';
-import image_1 from "./../../../public/img_1.jpg";
-import image_2 from "./../../../public/img_2.jpg";
-import image_3 from "./../../../public/img_3.jpg";
-import image_4 from "./../../../public/img_4.jpg";
-import image_5 from "./../../../public/img_5.jpg";
+import image_1 from "./../../assets/images/img_1.jpg";
+import image_2 from "./../../assets/images/img_2.jpg";
+import image_3 from "./../../assets/images/img_3.jpg";
+import image_4 from "./../../assets/images/img_4.jpg";
+import image_5 from "./../../assets/images/img_5.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Profile = () => {
@@ -19,9 +18,6 @@ const Profile = () => {
   const images = [image_1, image_2, image_3, image_4, image_5];
   const image = images[digit - 1];
 
-  const handleDeleteUser = () => {
-    // Add logic to delete the user
-  };
 
   return (
     <div className="container mt-4">

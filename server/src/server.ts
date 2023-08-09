@@ -10,6 +10,7 @@ import mongoose from 'mongoose';
 import { config } from './config/config';
 import Logging from './library/Logger';
 import userRoutes from './routes/Users';
+import articleRoutes from './routes/Article'; // import the article routes
 import logMessage from './library/logMessage.json';
 const router = express();
 
@@ -57,6 +58,7 @@ const startServer = () => {
 
     /** Set up routes */
     router.use('/users', userRoutes);
+    router.use('/articles', articleRoutes); 
 
     /** Health Check */
     router.get('/health', (req, res, next) => {

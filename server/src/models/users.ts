@@ -1,9 +1,8 @@
 import mongoose, { Document, Schema } from 'mongoose';
 import bcrypt from 'bcrypt';
-import Joi from 'joi';
 
 /**
- * Author: John Doe
+ * Author: Amrendra Kumar Singh
  * Description: This file defines the User model and schema for MongoDB.
  * The IUser interface represents the User document, and the UserSchema defines
  * the structure and behavior of the User document.
